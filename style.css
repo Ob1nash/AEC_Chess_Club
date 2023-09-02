@@ -1,0 +1,57 @@
+.navbar-image {
+    
+    border-radius: 10px;
+    display: block; /* Ensures proper spacing and alignment */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  
+  body {
+    background-image: url('https://i.pinimg.com/originals/ea/eb/1f/eaeb1f06a75f6db0cb6b2ce709841f72.jpg');
+    background-size: cover; /* This ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+  }
+
+  .navbar-brand{
+    border-radius: 10px;
+  }
+
+  .nav-item{
+    color: aliceblue;
+  }
+
+  .aboutimg{
+    padding: 20px;
+    width: 400px;
+    border-radius: 150px;
+    
+  }
+
+.abouttext1{
+  padding-top: 40px;
+  color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.my-3 text-center{
+  padding-top: 60px;
+  color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+  .abouttext{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .mb-3{
+    margin: auto;
+    width: 300px;
+  }
+
+.submitbtn{
+  margin: auto;
+  padding: auto;
+}
+
+  
