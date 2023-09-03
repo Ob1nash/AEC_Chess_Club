@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url('https://i.pinimg.com/originals/ea/eb/1f/eaeb1f06a75f6db0cb6b2ce709841f72.jpg');
+    background-image: url('https://i.etsystatic.com/22539742/r/il/789724/3810693578/il_fullxfull.3810693578_i8p1.jpg');
     background-size: cover; /* This ensures the image covers the entire element */
     background-repeat: no-repeat; /* Prevents image from repeating */
     background-attachment: fixed; /* Makes the background fixed while scrolling */
@@ -39,8 +39,17 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+
   .abouttext{
-    color: aliceblue;
+    opacity: 0.8;
+    display:block;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgb(200, 200, 199);
+    color: rgb(18, 18, 18);
     font-family:'Times New Roman', Times, serif;
   }
 
@@ -49,9 +58,52 @@
     width: 300px;
   }
 
-.submitbtn{
-  margin: auto;
-  padding: auto;
+.quotation{
+  width: 30px;
+  height: 25px;
 }
 
+ .abouttext2{
+  font-size:45px;
+  font-family:serif;
+  color: rgb(8, 84, 138);
+}
+
+.abouttext3{
+  padding-top:45px;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.form-label{
+  font-size: 20px;
+}
+
+.col{
+  padding: 10px;
+}
+
+.abouttext4{
+  margin-top: 50px;
+  opacity: 0.7;
+  background-color: rgb(119, 117, 111);
+  padding-top:35px;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
   
+}
+
+
+.riturajda{
+  border-radius: 100%;
+}
+
+.foundersdesk{
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 0.7;
+  
+}
