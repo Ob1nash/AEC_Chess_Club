@@ -133,4 +133,19 @@
     
   }
 
-  
+  .events{
+    margin: 0 auto;
+    color: aliceblue;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-color: rgb(131, 141, 149);
+    width: 270px;
+  }
+
+  .footericon2{
+    padding-top:10px;
+    height: 45px;
+    padding-left: 20px;
+    margin-left: 14px;
+    
+  }
