@@ -1,3 +1,8 @@
+.navbar{
+  background-color: transparent !important; /* Use !important to override Bootstrap styles */
+  border: none; /* Remove any border if present */
+}
+
 .navbar-image {
     
     border-radius: 10px;
@@ -41,6 +46,7 @@
 
 
   .abouttext{
+    box-shadow: 3px 3px;
     opacity: 0.8;
     display:block;
     margin-top: 20px;
@@ -67,7 +73,7 @@
  .abouttext2{
   font-size:45px;
   font-family:serif;
-  color: rgb(8, 84, 138);
+  color: rgb(19, 79, 125);
 }
 
 .abouttext3{
@@ -98,6 +104,7 @@
 
 
 .riturajda{
+  box-shadow: 3px 3px;
   border-radius: 100%;
 }
 
@@ -134,11 +141,12 @@
   }
 
   .events{
+    box-shadow: 3px 3px;
     margin: 0 auto;
-    color: aliceblue;
+    color: rgb(247, 247, 247);
     opacity: 0.9;
     border-radius: 20px;
-    background-color: rgb(131, 141, 149);
+    background-color: rgb(88, 128, 161);
     width: 270px;
   }
 
