@@ -141,7 +141,7 @@
   }
 
   .events{
-    box-shadow: 3px 3px;
+    
     margin: 0 auto;
     color: rgb(247, 247, 247);
     opacity: 0.9;
@@ -157,3 +157,22 @@
     margin-left: 14px;
     
   }
+
+  .shatranj{
+    
+   
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-family: serif;
+  }
+
+
+.Shatranj{
+  padding-top: 5px;
+  background-color: aliceblue;
+  opacity: 0.9;
+  padding-bottom: 20px;
+}
