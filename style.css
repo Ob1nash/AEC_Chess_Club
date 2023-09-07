@@ -158,9 +158,8 @@
     
   }
 
-  .shatranj{
-    
-   
+  .shatranj{ 
+   padding-top: 10px;
     margin: 0 auto;
     width: 80%;
     border-radius: 4px;
@@ -168,15 +167,50 @@
     background-color: antiquewhite;
     font-family: serif;
   }
+ 
+  .shatranj2{
+    background-color:aliceblue;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
 
 
-.Shatranj{
-  padding-top: 5px;
-  background-color: aliceblue;
-  opacity: 0.9;
-  padding-bottom: 20px;
-}
 
 .fresherst{
   background-color: aliceblue;
+  opacity: 0.9;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+.freshersto{
+
+  margin: 0 auto;
+    width: 80%;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-family: serif;
+
+}
+
+.prochess{
+  background-color: aliceblue;
+  opacity: 0.9;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.Prochess{
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: antiquewhite;
+  font-family: serif;
 }
