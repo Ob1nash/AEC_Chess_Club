@@ -70,7 +70,27 @@
   height: 25px;
 }
 
+.quotationbox{
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 20px;
+  opacity: 0.7;
+  background-color: aliceblue;
+
+}
+
  .abouttext2{
+  /* animation: slideInLeft 1s ease-in-out, bounce 1s linear; */
+  animation-name: bounce;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function:ease ;
+  animation-delay:0.3s ;
+  animation-iteration-count:1 ;
+  animation-direction: normal ;
+  animation-fill-mode: none ;
+
+  padding: 10px;
   font-size:45px;
   font-family:serif;
   color: rgb(19, 79, 125);
@@ -159,7 +179,7 @@
   }
 
   .shatranj{ 
-   padding-top: 10px;
+  
     margin: 0 auto;
     width: 80%;
     border-radius: 4px;
@@ -214,3 +234,44 @@
   background-color: antiquewhite;
   font-family: serif;
 }
+
+#submitbtn{
+  transition: transform 0.3s ease 0s;
+}
+
+#submitbtn:hover{
+  transform:translateY(-5px) ;
+}
+
+.mediaicon:hover{
+  transform:translateY(-5px) ;
+}
+
+@keyframes slideInLeft {
+  from{
+    transform: translateY(-200px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-20px);
+  }
+  60%{
+    transform: translateY(0);
+  }
+  80%{
+    transform: translateY(-25px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
