@@ -46,14 +46,19 @@
 
 
   .abouttext{
+    /* display: inline-block; */
+    /* max-height: 500px; */
     box-shadow: 3px 3px;
     opacity: 0.8;
     display:block;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: fit-content;
+    height: fit-content;
     background-color: rgb(200, 200, 199);
     color: rgb(18, 18, 18);
     font-family:'Times New Roman', Times, serif;
@@ -370,3 +375,50 @@
   
 }
 
+
+/* .containerabout{
+  display: flex;
+  margin-left: 14%;
+}
+
+.aboutimg{
+  max-height: 300px;
+  max-width: 300px;
+} */
+
+
+/* .containerfounders{
+  display: flex;
+  display: inline-block;
+} */
+
+@media (max-width: 400px) {
+  .containerfounders {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .riturajda,
+  .foundersdesk {
+    max-width: 100%; /* Make both image and text box 100% width */
+  }
+}
+
+@media (min-width: 800px) {
+  .containerfounders {
+    display: flex; /* Use flexbox to make them stay side by side */
+    align-items: center; /* Vertically center-align items */
+    padding-left: 15%;
+    padding-top: 30px;
+  }
+
+  .riturajda{
+    flex: 1; /* Allow the image to grow and take up available space */
+    max-width: 80%; /* Set a maximum width for the image */
+    
+  
+  }
+  .foundersdesk {
+    flex: 1; /* Allow the text box to grow and take up available space */
+    max-width: 50%; /* Set a maximum width for the text box */
+  }
+}
