@@ -190,6 +190,9 @@
   }
  
   .shatranj2{
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
     background-color:aliceblue;
     opacity: 0.9;
     margin-bottom: 20px;
@@ -199,6 +202,9 @@
 
 
 .fresherst{
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
   background-color: aliceblue;
   opacity: 0.9;
   margin-top: 5px;
@@ -220,6 +226,9 @@
 }
 
 .prochess{
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
   background-color: aliceblue;
   opacity: 0.9;
   margin-top: 5px;
@@ -335,4 +344,29 @@
 
 
 
+/*corecomiti*/
+
+
+.corecomone{
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 57%;
+  
+}
+
+.corecomtwo{
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 57%;
+  
+}
+.corecomthree{
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 57%;
+  
+}
 
