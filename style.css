@@ -144,7 +144,7 @@
 
 .footericon1{
     width: 50px;
-  padding-right: 20px;
+  
     
   }
 
@@ -156,7 +156,7 @@
 
   .footericon{
     width: 50px;
-    padding-left: 20px;
+    
     
   }
 
@@ -172,11 +172,12 @@
 
   .footericon2{
     padding-top:10px;
-    height: 45px;
-    padding-left: 20px;
-    margin-left: 14px;
-    
+    height: 80px;
+     
   }
+
+
+  /*Tournamnets-------*/
 
   .shatranj{ 
   
@@ -273,5 +274,65 @@
     transform: translateY(0);
   }
 }
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+}
+
+
+
+
+
+/* media icons animation */
+
+.mediaicon {
+	width: 80px;
+	height: 80px;
+	
+	margin: 0 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 16px 18px 3px rgba(0, 0, 0, 0.5);
+}
+.footerIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35vh;
+	width: 200px;
+	margin: auto;
+}
+/* .box i {
+	z-index: 5;
+	font-size: 45px;
+	color: #fff;
+} */
+.box-area {
+	display: flex;
+	justify-content: space-around;
+}
+.mediaicon::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: -125px;
+	height: 40%;
+	width: 60%;
+	background-image: linear-gradient(45deg, red, yellow);
+	transform: translateX(-100%) skew(40deg);
+	transition: transform 0.5s linear;
+}
+.mediaicon:hover::before {
+	transform: translateX(50%) skew(40deg);
+}
+
+
 
 
