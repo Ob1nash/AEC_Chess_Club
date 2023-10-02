@@ -25,6 +25,10 @@
     color: aliceblue;
   }
 
+  .custom-button{
+   background-color: rgb(123, 122, 121) !important;
+  }
+
   .aboutimg{
     padding: 20px;
     width: 400px;
